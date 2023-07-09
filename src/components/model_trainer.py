@@ -33,7 +33,7 @@ class ModelTrainer:
                     # 'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
                  
                     # 'max_features':['sqrt','log2',None],
-                    'n_estimators': np.arange(1, 100)
+                    'n_estimators': np.arange(1, 10)
                 },
                 "SVM":{
                     'C': [100],

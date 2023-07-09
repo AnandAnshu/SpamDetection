@@ -5,4 +5,5 @@ matplotlib
 scikit-learn
 imbalanced-learn
 dill
+Flask
 -e .
